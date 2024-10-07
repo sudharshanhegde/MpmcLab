@@ -9,7 +9,7 @@ MSG2 DB "String is Not Palindrome$"
 .CODE
 MOV AX,@DATA
 MOV DS,AX
-MOV ES,AX RSTR
+MOV ES,AX
 LEA SI,STR ; SI points to STR
 LEA DI,RSTR ; DI points to RSTR
 ADD DI,LEN-1 ; adds DI and LEN-1
