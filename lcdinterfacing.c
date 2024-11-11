@@ -1,5 +1,5 @@
 #include <LPC214x.h>
- 
+// fcuk you 
 void cmd(unsigned char d);
 void datal(unsigned char t);
 void delay (int count);
